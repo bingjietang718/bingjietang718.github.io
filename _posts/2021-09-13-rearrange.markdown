@@ -6,7 +6,7 @@ image: /images/icra2022.png
 categories: research
 author: "Bingjie Tang, Gaurav S. Sukhatme"
 authors: "<strong>Bingjie Tang</strong>, Gaurav S. Sukhatme"
-venue: "IEEE International Conference on Robotics and Automation (ICRA), 2022, in submission."
+venue: "IEEE International Conference on Robotics and Automation (IROS), in submission."
 pdf: /pdfs/rearrange2022.pdf
 video: https://youtu.be/NpjiBYt39bw
 ---
