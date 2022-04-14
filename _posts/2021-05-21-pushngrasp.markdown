@@ -5,7 +5,7 @@ date:   2021-05-21 22:21:59 +00:00
 image: /images/icra2021.jpg
 categories: research
 authors: "<strong>Bingjie Tang</strong>, Matthew Corsaro, George Konidaris, Stefanos Nikolaidis, Stefanie Tellex"
-venue: "IEEE International Conference on Robotics and Automation (ICRA), 2021."
+venue: "IEEE International Conference on Robotics and Automation (ICRA)."
 pdf: /pdfs/png2021.pdf
 video: https://youtu.be/TlVekmLOo2g
 ---
