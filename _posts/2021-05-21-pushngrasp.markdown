@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Learning Collaborative Push and Grasp Policies in Dense Clutter"
-date:   2021-05-21 22:21:59 +00:00
+date:   2021-05-21
 image: /images/icra2021.jpg
 categories: research
 authors: "<strong>Bingjie Tang</strong>, Matthew Corsaro, George Konidaris, Stefanos Nikolaidis, Stefanie Tellex"

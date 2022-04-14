@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Learning Multi-action Tabletop Rearrangement Policies"
-date:   2022-09-13 22:21:59 +00:00
+date:   2022-03-27
 image: /images/icra2022.png
 categories: research
 author: "Bingjie Tang, Gaurav S. Sukhatme"
