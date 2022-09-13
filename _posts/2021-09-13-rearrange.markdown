@@ -3,7 +3,6 @@ layout: post
 title:  "Learning Multi-action Tabletop Rearrangement Policies"
 date:   2022-03-27
 categories: research
-author: "Bingjie Tang, Gaurav S. Sukhatme"
 authors: "<strong>Bingjie Tang</strong>, Gaurav S. Sukhatme"
 pdf: /pdfs/rearrange2022.pdf
 video: https://youtu.be/NpjiBYt39bw
