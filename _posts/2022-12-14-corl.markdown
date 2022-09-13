@@ -2,6 +2,7 @@
 layout: post
 title:  "Selective Object Rearrangement in Clutter"
 date:   2022-12-14
+image: /images/corl22.gif
 categories: research
 authors: "<strong>Bingjie Tang</strong>, Gaurav S. Sukhatme."
 venue: "6th Annual Conference on Robot Learning (CoRL), 2022"
