@@ -2,10 +2,11 @@
 layout: post
 title:  "Selective Object Rearrangement in Clutter"
 date:   2022-12-14
+image: /images/icra2021.jpg
 categories: research
 authors: "<strong>Bingjie Tang</strong>, Gaurav S. Sukhatme."
 venue: "6th Annual Conference on Robot Learning (CoRL)"
 pdf: /pdfs/corl2022.pdf
-video: https://sites.google.com/view/selective-rearrangement
+website: https://sites.google.com/view/selective-rearrangement
 ---
 An image-based, learned method for selective tabletop object rearrangement in clutter using a parallel jaw gripper. Our method consists of three stages: graph-based object sequencing (which object to move), feature-based action selection (whether to push or grasp, and at what position and orientation) and a visual correspondence-based placement policy (where to place a grasped object).
