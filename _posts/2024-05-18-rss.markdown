@@ -4,7 +4,7 @@ title:  "AutoMate: Specialist and Generalist Assembly Policies over Diverse Geom
 date:   2024-05-18
 image: /images/corl22.gif
 categories: research
-authors: "<strong>Bingjie Tang</strong>, Iretiayo Akinola, Jie Xu, Bowen Wen, Ankur Handa, Karl Van Wyk, Dieter Fox, Gaurav S. Sukhatme, Fabio Ramos, Yashraj Narang。"
+authors: "<strong>Bingjie Tang</strong>, Iretiayo Akinola, Jie Xu, Bowen Wen, Ankur Handa, Karl Van Wyk, Dieter Fox, Gaurav S. Sukhatme, Fabio Ramos, Yashraj Narang"
 venue: "20th Robotics: Science and Systems (RSS), 2024."
 pdf: /pdfs/rss2024.pdf
 # website: https://sites.google.com/nvidia.com/industreal
