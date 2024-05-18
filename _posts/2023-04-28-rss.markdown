@@ -7,6 +7,10 @@ categories: research
 authors: "<strong>Bingjie Tang&#42;</strong>, Michael Lin&#42;, Iretiayo Akinola, Ankur Handa, Gaurav Sukhatme, Fabio Ramos, Dieter Fox, Yashraj Narang. (&#42;Equal Contribution)"
 venue: "19th Robotics: Science and Systems (RSS), 2023."
 pdf: /pdfs/rss2023.pdf
+arxiv: https://arxiv.org/abs/2305.17110
+blogpost: https://developer.nvidia.com/blog/transferring-industrial-robot-assembly-tasks-from-simulation-to-reality/
+dataset: https://github.com/NVlabs/industrealkit
+code: https://github.com/NVIDIA-Omniverse/IsaacGymEnvs/blob/main/docs/industreal.md
 website: https://sites.google.com/nvidia.com/industreal
 ---
 We present a set of algorithms, systems, and tools that solve assembly tasks in simulation with reinforcement learning (RL) and successfully achieve policy transfer to the real world. Specifically, we propose 1) simulation-aware policy updates, 2) signed-distance-field rewards, and 3) sampling-based curricula for robotic RL agents. We use these algorithms to enable robots to solve contact-rich pick, place, and insertion tasks in simulation. We then propose 4) a policy-level action integrator to minimize error at policy deployment time. We build and demonstrate a real-world robotic assembly system that uses the trained policies and action integrator to achieve repeatable performance in the real world. Finally, we present hardware and software tools that allow other researchers to fully reproduce our system and results.
