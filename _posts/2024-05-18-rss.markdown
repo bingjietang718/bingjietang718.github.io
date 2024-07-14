@@ -8,5 +8,7 @@ authors: "<strong>Bingjie Tang</strong>, Iretiayo Akinola, Jie Xu, Bowen Wen, An
 venue: "20th Robotics: Science and Systems (RSS), 2024."
 pdf: /pdfs/rss2024.pdf
 website: https://bingjietang718.github.io/automate/
+blogpost: https://nvda.ws/4czXNEJ
+arxiv: https://arxiv.org/abs/2407.08028
 ---
 A learning framework and system that consists of 4 parts: 1) a dataset of 100 assemblies compatible with simulation and the real world, along with parallelized simulation environments for policy learning, 2) a novel simulation-based approach for learning specialist (i.e., part-specific) policies and generalist (i.e., unified) assembly policies, 3) demonstrations of specialist policies that individually solve 80 assemblies with ≈80%+ success rates in simulation, as well as a generalist policy that jointly solves 20 assemblies with an 80%+ success rate, and 4) zero-shot sim-to-real transfer that achieves similar (or better) performance than simulation, including on end-to-end assembly. 
