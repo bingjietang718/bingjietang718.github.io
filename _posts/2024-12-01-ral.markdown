@@ -5,7 +5,7 @@ date:   2024-12-01
 image: /images/corl22.gif
 categories: research
 authors: "Michael Noseworthy, <strong>Bingjie Tang</strong>, Bowen Wen, Ankur Handa, Nicholas Roy, Dieter Fox, Fabio Ramos, Yashraj Narang, Iretiayo Akinola. "
-venue: "Submitted to IEEE Robotics and Automation Letters (RA-L)."
+venue: "IEEE Robotics and Automation Letters (RA-L)."
 website: https://noseworm.github.io/forge/
 arxiv: https://arxiv.org/abs/2408.04587
 video: https://youtu.be/6rULFjEv4Kc?si=gbBS7-pIRmOa6Isq

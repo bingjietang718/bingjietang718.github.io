@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "MatchMaker: Automated Asset Generation for Robotic Assembly"
+date:   2024-09-01
+image: /images/corl22.gif
+categories: research
+authors: "Yian Wang, <strong>Bingjie Tang</strong>, Chuang Gan, Dieter Fox, Kaichun Mo, Yashraj Narang, Iretiayo Akinola."
+venue: "International Conference on Robotics \& Automation (ICRA) 2025"
+website: https://wangyian-me.github.io/MatchMaker/
+# arxiv: https://arxiv.org/abs/2408.04587
+# video: https://youtu.be/6rULFjEv4Kc?si=gbBS7-pIRmOa6Isq
+---
+We propose MatchMaker, a pipeline to automatically generate diverse, simulation-compatible assembly asset pairs to facilitate learning assembly skills.

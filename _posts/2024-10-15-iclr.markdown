@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "SRSA: Skill Retrieval and Adaptation for Robotic Assembly Tasks"
+date:   2024-10-15
+image: /images/corl22.gif
+categories: research
+authors: "Yijie Guo, <strong>Bingjie Tang</strong>, Iretiayo Akinola, Dieter Fox, Abhishek Gupta, Yashraj Narang."
+venue: "International Conference on Learning Representations (ICLR), 2025. (Spotlight)"
+website: https://srsa2024.github.io/
+# arxiv: https://arxiv.org/abs/2408.04587
+pdf: https://openreview.net/pdf?id=RInisw1yin
+# video: https://youtu.be/6rULFjEv4Kc?si=gbBS7-pIRmOa6Isq
+---
+We introduce SRSA (Skill Retrieval and Skill Adaptation), a novel framework designed to address this problem by utilizing a pre-existing skill library containing policies for diverse assembly tasks.
