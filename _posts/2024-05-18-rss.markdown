@@ -2,9 +2,9 @@
 layout: post
 title:  "AutoMate: Specialist and Generalist Assembly Policies over Diverse Geometries"
 date:   2024-05-18
-image: /images/corl22.gif
+image: https://developer-blogs.nvidia.com/wp-content/uploads/2024/07/robotic-arm-mechanical-parts.png
 categories: research
-authors: "<strong>Bingjie Tang</strong>, Iretiayo Akinola, Jie Xu, Bowen Wen, Ankur Handa, Karl Van Wyk, Dieter Fox, Gaurav S. Sukhatme, Fabio Ramos, Yashraj Narang"
+authors: "<strong>Bingjie Tang</strong>, <a href=\"https://scholar.google.com/citations?user=e1zesfMAAAAJ&hl=en\">Iretiayo Akinola</a>, <a href=\"https://people.csail.mit.edu/jiex/\">Jie Xu</a>, <a href=\"https://scholar.google.com/citations?user=VSG7Z0kAAAAJ&hl=en\">Bowen Wen</a>, <a href=\"https://scholar.google.com/citations?user=sCTJI-0AAAAJ&hl=en\">Ankur Handa</a>, Karl Van Wyk, <a href=\"https://scholar.google.com/citations?user=DqXsbPAAAAAJ&hl=en\">Dieter Fox</a>, <a href=\"https://scholar.google.com/citations?user=lRUi-A8AAAAJ&hl=en\">Gaurav S. Sukhatme</a>, <a href=\"https://scholar.google.com/citations?user=T_mJiHoAAAAJ&hl=en\">Fabio Ramos</a>, <a href=\"https://scholar.google.com/citations?user=M3NuG7AAAAAJ&hl=en\">Yashraj Narang</a>"
 venue: "20th Robotics: Science and Systems (RSS), 2024."
 pdf: /pdfs/rss2024.pdf
 website: https://bingjietang718.github.io/automate/
@@ -13,4 +13,4 @@ arxiv: https://arxiv.org/abs/2407.08028
 code: https://github.com/isaac-sim/IsaacGymEnvs/blob/automate/docs/automate.md
 dataset: https://github.com/isaac-sim/IsaacGymEnvs/tree/automate/assets/automate/mesh
 ---
-A learning framework and system that consists of 4 parts: 1) a dataset of 100 assemblies compatible with simulation and the real world, along with parallelized simulation environments for policy learning, 2) a novel simulation-based approach for learning specialist (i.e., part-specific) policies and generalist (i.e., unified) assembly policies, 3) demonstrations of specialist policies that individually solve 80 assemblies with ≈80%+ success rates in simulation, as well as a generalist policy that jointly solves 20 assemblies with an 80%+ success rate, and 4) zero-shot sim-to-real transfer that achieves similar (or better) performance than simulation, including on end-to-end assembly. 
+We present a learning framework for assembly across many geometries, including a dataset of 100 simulation- and real-world-compatible assemblies. AutoMate learns specialist and generalist policies in parallel simulation, solves many assembly families with high success rates, and transfers zero-shot to real robots for end-to-end assembly.

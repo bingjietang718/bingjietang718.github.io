@@ -1,77 +1,250 @@
 ---
 ---
 
-//
-// IMPORTS
-//
+:root {
+  --bg: #f7f4ef;
+  --surface: #ffffff;
+  --surface-soft: #eef3f7;
+  --text: #20242a;
+  --muted: #5f6875;
+  --line: #d9dee5;
+  --accent: #1f6f5b;
+  --accent-strong: #174f3f;
+  --shadow: 0 18px 48px rgba(32, 36, 42, 0.08);
+}
 
-//@import "reset";
-//@import "variables";
-// Syntax highlighting @import is at the bottom of this file
+* {
+  box-sizing: border-box;
+}
 
-/**************/
-/* BASE RULES */
-/**************/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  font-display: auto;
+}
+
 a {
-  color: #1772d0;
+  color: var(--accent);
   text-decoration: none;
+  transition: color 160ms ease, border-color 160ms ease, background-color 160ms ease;
 }
 
 a:focus,
 a:hover {
-  color: #f09228;
-  text-decoration: none;
+  color: var(--accent-strong);
 }
 
-body,
-td,
-th,
-tr,
+a:focus-visible {
+  outline: 3px solid rgba(15, 111, 126, 0.28);
+  outline-offset: 4px;
+}
+
 p,
-a {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-  font-display: auto;
+h1,
+h2,
+h3 {
+  margin: 0;
 }
 
 strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-  font-display: auto;
-}
-
-h2 {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
-  font-display: auto;
-  font-weight: normal;
-  padding: 0px;
-  margin: 0px;
-  display:inline; 
-}
-
-h3 {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
   font-weight: 700;
-  font-display: auto;
-  padding: 0px;
-  margin: 0px;
-  display:inline; 
+}
+
+.site-shell {
+  width: min(100% - 40px, 980px);
+  margin: 0 auto;
+  padding: 56px 0 36px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 300px);
+  gap: 44px;
+  align-items: center;
+  min-height: calc(100vh - 112px);
+  padding-bottom: 48px;
+  border-bottom: 1px solid var(--line);
+}
+
+.hero-copy {
+  max-width: 660px;
+}
+
+.eyebrow {
+  color: var(--accent-strong);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  line-height: 1.4;
+  margin-bottom: 12px;
+  text-transform: uppercase;
 }
 
 h1 {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
-  font-weight: normal;
-  font-display: auto;
-  text-align: center;
-  padding: 0px;
-  margin-block-start: 14px;
-  margin-block-end: 14px;
-  margin-left: 0px;
-  margin-right: 0px;
+  color: var(--text);
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1.05;
+  margin-bottom: 22px;
+}
 
+.bio {
+  color: var(--muted);
+  font-size: 17px;
+  max-width: 70ch;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 26px;
+}
+
+.contact-links a,
+.resource-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.contact-links a {
+  padding: 0 15px;
+}
+
+.contact-links a:hover,
+.resource-links a:hover {
+  border-color: rgba(31, 111, 91, 0.38);
+  background: #f1faf5;
+  color: var(--accent-strong);
+}
+
+.profile-photo {
+  position: relative;
+  margin: 0;
+}
+
+.profile-photo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  border: 1px solid rgba(32, 36, 42, 0.1);
+  border-radius: 50%;
+  box-shadow: var(--shadow);
+  object-fit: cover;
+}
+
+.profile-photo-hover {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 180ms ease;
+}
+
+.profile-photo:hover .profile-photo-hover,
+.profile-photo:focus-within .profile-photo-hover {
+  opacity: 1;
+}
+
+.section-intro {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: 42px;
+  align-items: start;
+  padding: 58px 0 30px;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.section-intro > p {
+  color: var(--muted);
+  max-width: 72ch;
+}
+
+.publication-list {
+  display: grid;
+  gap: 18px;
+}
+
+.publication-card {
+  padding: 22px;
+  border: 1px solid rgba(32, 36, 42, 0.1);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: 0 10px 30px rgba(32, 36, 42, 0.05);
+}
+
+.publication-body {
+  min-width: 0;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.35;
+  margin-bottom: 8px;
+}
+
+.authors,
+.venue,
+.excerpt {
+  color: var(--muted);
+}
+
+.authors {
+  margin-bottom: 4px;
+}
+
+.venue {
+  font-style: italic;
+  margin-bottom: 12px;
+}
+
+.resource-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.resource-links:empty {
+  display: none;
+}
+
+.resource-links a {
+  min-height: 30px;
+  padding: 0 10px;
+  font-size: 13px;
+}
+
+.excerpt p {
+  margin: 0;
+}
+
+.site-footer {
+  padding: 42px 0 8px;
+  color: var(--muted);
+  font-size: 13px;
+  text-align: center;
 }
 
 .one {
@@ -99,7 +272,57 @@ span.highlight {
   background-color: #ffffd0;
 }
 
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-//@import "highlights";
-//@import "svg-icons";
+@media (max-width: 760px) {
+  .site-shell {
+    width: min(100% - 28px, 980px);
+    padding-top: 28px;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 26px;
+    min-height: auto;
+    padding-bottom: 38px;
+  }
+
+  .profile-photo {
+    order: -1;
+    max-width: 260px;
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+
+  .section-intro {
+    grid-template-columns: 1fr;
+  }
+
+  .section-intro {
+    gap: 14px;
+    padding-top: 40px;
+  }
+
+  .publication-card {
+    padding: 18px;
+  }
+}
+
+@media (max-width: 460px) {
+  body {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+
+  .bio {
+    font-size: 16px;
+  }
+
+  .contact-links a {
+    flex: 1 1 auto;
+    justify-content: center;
+  }
+}

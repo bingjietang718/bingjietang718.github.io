@@ -2,13 +2,14 @@
 layout: post
 title:  "MatchMaker: Automated Asset Generation for Robotic Assembly"
 date:   2024-09-01
-image: /images/corl22.gif
+image: https://wangyian-me.github.io/MatchMaker/static/images/teaser-3.png
 categories: research
-authors: "Yian Wang, <strong>Bingjie Tang</strong>, Chuang Gan, Dieter Fox, Kaichun Mo, Yashraj Narang, Iretiayo Akinola."
+authors: "<a href=\"https://scholar.google.com/citations?user=dUf3wx4AAAAJ&hl=en\">Yian Wang</a>, <strong>Bingjie Tang</strong>, Chuang Gan, <a href=\"https://scholar.google.com/citations?user=DqXsbPAAAAAJ&hl=en\">Dieter Fox</a>, Kaichun Mo, <a href=\"https://scholar.google.com/citations?user=M3NuG7AAAAAJ&hl=en\">Yashraj Narang</a>, <a href=\"https://scholar.google.com/citations?user=e1zesfMAAAAJ&hl=en\">Iretiayo Akinola</a>."
 venue: "IEEE International Conference on Robotics and Automation (ICRA), 2025"
 website: https://wangyian-me.github.io/MatchMaker/
 pdf: https://wangyian-me.github.io/MatchMaker/
 # arxiv: https://arxiv.org/abs/2408.04587
 # video: https://youtu.be/6rULFjEv4Kc?si=gbBS7-pIRmOa6Isq
+blogpost: https://developer.nvidia.com/blog/r2d2-unlocking-robotic-assembly-and-contact-rich-manipulation-with-nvidia-research/
 ---
-We propose MatchMaker, a pipeline to automatically generate diverse, simulation-compatible assembly asset pairs to facilitate learning assembly skills.
+We propose MatchMaker, a pipeline for automatically generating diverse, simulation-compatible assembly asset pairs. By creating geometrically varied part combinations at scale, MatchMaker reduces the manual effort required to build assembly benchmarks and provides richer training assets for learning robust robotic assembly skills.

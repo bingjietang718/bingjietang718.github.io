@@ -2,12 +2,13 @@
 layout: post
 title:  "FORGE: Force-Guided Exploration for Robust Contact-Rich Manipulation under Uncertainty"
 date:   2024-12-01
-image: /images/corl22.gif
+image: https://noseworm.github.io/forge/static/videos/pgb_v2_lowres.gif
 categories: research
-authors: "Michael Noseworthy, <strong>Bingjie Tang</strong>, Bowen Wen, Ankur Handa, Nicholas Roy, Dieter Fox, Fabio Ramos, Yashraj Narang, Iretiayo Akinola. "
+authors: "<a href=\"https://scholar.google.com/citations?user=Ybj21gEAAAAJ&hl=en\">Michael Noseworthy</a>, <strong>Bingjie Tang</strong>, <a href=\"https://scholar.google.com/citations?user=VSG7Z0kAAAAJ&hl=en\">Bowen Wen</a>, <a href=\"https://scholar.google.com/citations?user=sCTJI-0AAAAJ&hl=en\">Ankur Handa</a>, Nicholas Roy, <a href=\"https://scholar.google.com/citations?user=DqXsbPAAAAAJ&hl=en\">Dieter Fox</a>, <a href=\"https://scholar.google.com/citations?user=T_mJiHoAAAAJ&hl=en\">Fabio Ramos</a>, <a href=\"https://scholar.google.com/citations?user=M3NuG7AAAAAJ&hl=en\">Yashraj Narang</a>, <a href=\"https://scholar.google.com/citations?user=e1zesfMAAAAJ&hl=en\">Iretiayo Akinola</a>. "
 venue: "IEEE Robotics and Automation Letters (RA-L)."
 website: https://noseworm.github.io/forge/
 arxiv: https://arxiv.org/abs/2408.04587
 video: https://youtu.be/6rULFjEv4Kc?si=gbBS7-pIRmOa6Isq
+blogpost: https://developer.nvidia.com/blog/r2d2-unlocking-robotic-assembly-and-contact-rich-manipulation-with-nvidia-research/
 ---
-We present FORGE, a method that enables sim-to-real transfer of contact-rich manipulation policies in the presence of significant pose uncertainty. FORGE combines a force-threshold mechanism with a dynamics randomization scheme during policy learning in simulation, to enable the robust transfer of the learned policies to the real robot.
+We present FORGE, a method for robust sim-to-real transfer in contact-rich manipulation under pose uncertainty. During simulation training, FORGE combines force-guided exploration with dynamics randomization so policies can tolerate misalignment and uncertainty, then transfer reliably to real robotic assembly and manipulation settings.

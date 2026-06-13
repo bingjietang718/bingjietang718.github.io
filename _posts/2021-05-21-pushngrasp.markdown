@@ -9,4 +9,4 @@ venue: "IEEE International Conference on Robotics and Automation (ICRA), 2021"
 pdf: /pdfs/png2021.pdf
 video: https://youtu.be/TlVekmLOo2g
 ---
-Robots must reason about pushing and grasping in order to engage in flexible manipulation in cluttered environments. We train a robot to learn joint planar pushing and 6-degree-of-freedom (6-DoF) grasping policies by self-supervision. With collaborative pushes and expanded grasping action space, our system can deal with cluttered scenes with a wide variety of objects (e.g. grasping a plate from the side after pushing away surrounding obstacles).
+We train self-supervised policies that combine planar pushing with 6-degree-of-freedom grasping for dense tabletop clutter. By coordinating pushes with a richer grasp action space, the robot can rearrange obstacles and recover feasible grasps, enabling more flexible manipulation across diverse household objects and cluttered scenes.

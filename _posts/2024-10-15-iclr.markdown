@@ -2,13 +2,14 @@
 layout: post
 title:  "SRSA: Skill Retrieval and Adaptation for Robotic Assembly Tasks"
 date:   2024-10-15
-image: /images/corl22.gif
+image: https://srsa2024.github.io/static/images/overview.png
 categories: research
-authors: "Yijie Guo, <strong>Bingjie Tang</strong>, Iretiayo Akinola, Dieter Fox, Abhishek Gupta, Yashraj Narang."
+authors: "<a href=\"https://scholar.google.com/citations?user=ONuIPv0AAAAJ&hl=en\">Yijie Guo</a>, <strong>Bingjie Tang</strong>, <a href=\"https://scholar.google.com/citations?user=e1zesfMAAAAJ&hl=en\">Iretiayo Akinola</a>, <a href=\"https://scholar.google.com/citations?user=DqXsbPAAAAAJ&hl=en\">Dieter Fox</a>, <a href=\"https://scholar.google.com/citations?user=1wLVDP4AAAAJ&hl=en\">Abhishek Gupta</a>, <a href=\"https://scholar.google.com/citations?user=M3NuG7AAAAAJ&hl=en\">Yashraj Narang</a>."
 venue: "International Conference on Learning Representations (ICLR), 2025. (Spotlight)"
 website: https://srsa2024.github.io/
 # arxiv: https://arxiv.org/abs/2408.04587
 pdf: https://openreview.net/pdf?id=RInisw1yin
 # video: https://youtu.be/6rULFjEv4Kc?si=gbBS7-pIRmOa6Isq
+blogpost: https://developer.nvidia.com/blog/r2d2-unlocking-robotic-assembly-and-contact-rich-manipulation-with-nvidia-research/
 ---
-We introduce SRSA (Skill Retrieval and Skill Adaptation), a novel framework designed to address this problem by utilizing a pre-existing skill library containing policies for diverse assembly tasks.
+We introduce SRSA, a framework for solving new robotic assembly tasks by retrieving and adapting skills from a pre-existing policy library. The method identifies relevant prior skills, transfers them to new geometries and task conditions, and reduces the need to learn every assembly behavior from scratch.
