@@ -13,6 +13,22 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <style>
+    .site-shell { width: min(100% - 36px, 840px); padding: 36px 0 30px; }
+    .hero { grid-template-columns: minmax(0, 1fr) 190px; gap: 34px; min-height: auto; padding-bottom: 30px; }
+    .profile-photo { width: 190px; max-width: 100%; }
+    h1 { font-size: 34px; line-height: 1.15; margin-bottom: 16px; }
+    .bio { font-size: 15px; }
+    .section-intro { grid-template-columns: 160px minmax(0, 1fr); gap: 28px; padding: 34px 0 24px; }
+    h2 { font-size: 22px; }
+    .publication-list { gap: 0; }
+    .publication-card { padding: 18px 0; border: 0; border-top: 1px solid var(--line); border-radius: 0; background: transparent; box-shadow: none; }
+    @media (max-width: 760px) {
+      .hero, .section-intro { grid-template-columns: 1fr; }
+      .profile-photo { order: -1; width: 190px; max-width: 220px; }
+      h1 { font-size: 32px; }
+    }
+  </style>
 </head>
 
 <body>
