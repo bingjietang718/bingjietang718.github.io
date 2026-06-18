@@ -14,7 +14,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
   <style>
-    .site-shell { width: min(100% - 36px, 840px); padding: 36px 0 30px; }
+    .site-shell { width: calc(100% - 36px); max-width: 840px; padding: 36px 0 30px; }
+    .bio, .section-intro > p, .authors, .excerpt { overflow-wrap: anywhere; }
     .hero { grid-template-columns: minmax(0, 1fr) 190px; gap: 34px; min-height: auto; padding-bottom: 30px; }
     .profile-photo { width: 190px; max-width: 100%; }
     h1 { font-size: 34px; line-height: 1.15; margin-bottom: 16px; }
@@ -25,8 +26,16 @@
     .publication-card { padding: 18px 0; border: 0; border-top: 1px solid var(--line); border-radius: 0; background: transparent; box-shadow: none; }
     @media (max-width: 760px) {
       .hero, .section-intro { grid-template-columns: 1fr; }
+      .site-shell { width: calc(100% - 28px); }
       .profile-photo { order: -1; width: 190px; max-width: 220px; }
       h1 { font-size: 32px; }
+      body { overflow-x: hidden; }
+      .contact-links { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+      .contact-links a { min-width: 0; padding: 0 8px; }
+    }
+    @media (max-width: 520px) {
+      .site-shell { max-width: 360px; }
+      .contact-links { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     }
   </style>
 </head>

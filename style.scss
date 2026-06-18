@@ -59,7 +59,8 @@ strong {
 }
 
 .site-shell {
-  width: min(100% - 36px, 840px);
+  width: calc(100% - 36px);
+  max-width: 840px;
   margin: 0 auto;
   padding: 36px 0 30px;
 }
@@ -99,6 +100,7 @@ h1 {
   color: var(--muted);
   font-size: 15px;
   max-width: 70ch;
+  overflow-wrap: anywhere;
 }
 
 .contact-links {
@@ -179,6 +181,7 @@ h2 {
 .section-intro > p {
   color: var(--muted);
   max-width: 72ch;
+  overflow-wrap: anywhere;
 }
 
 .publication-list {
@@ -206,6 +209,11 @@ h3 {
 .venue,
 .excerpt {
   color: var(--muted);
+}
+
+.authors,
+.excerpt {
+  overflow-wrap: anywhere;
 }
 
 .authors {
@@ -272,7 +280,7 @@ span.highlight {
 
 @media (max-width: 760px) {
   .site-shell {
-    width: min(100% - 28px, 980px);
+    width: calc(100% - 28px);
     padding-top: 28px;
   }
 
@@ -305,11 +313,31 @@ span.highlight {
   .publication-card {
     padding: 18px;
   }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .contact-links {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .contact-links a {
+    min-width: 0;
+    padding: 0 8px;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 460px) {
   body {
     font-size: 15px;
+  }
+
+  .site-shell {
+    max-width: 360px;
   }
 
   h1 {
@@ -323,5 +351,9 @@ span.highlight {
   .contact-links a {
     flex: 1 1 auto;
     justify-content: center;
+  }
+
+  .contact-links {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
