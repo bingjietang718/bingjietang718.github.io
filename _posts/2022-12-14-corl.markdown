@@ -8,6 +8,6 @@ authors: "<strong>Bingjie Tang</strong>, <a href=\"https://scholar.google.com/ci
 venue: "6th Annual Conference on Robot Learning (CoRL), 2022"
 pdf: /pdfs/corl2022.pdf
 video: https://www.youtube.com/watch?v=2KGBUB-SOKc
-website: https://sites.google.com/view/selective-rearrangement
+website: https://bingjietang718.github.io/selective-rearrangement/
 ---
 We develop an image-based method for selective tabletop rearrangement in clutter with a parallel-jaw gripper. The system chooses which object to move, decides whether and where to push or grasp, and uses visual correspondence to place grasped objects, producing targeted rearrangements from raw visual observations.
