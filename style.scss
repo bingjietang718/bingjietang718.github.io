@@ -60,22 +60,22 @@ strong {
 
 .site-shell {
   width: calc(100% - 36px);
-  max-width: 840px;
+  max-width: 1040px;
   margin: 0 auto;
   padding: 36px 0 30px;
 }
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 190px;
-  gap: 34px;
+  grid-template-columns: minmax(0, 1fr) 210px;
+  gap: 64px;
   align-items: center;
   padding-bottom: 30px;
   border-bottom: 1px solid var(--line);
 }
 
 .hero-copy {
-  max-width: 660px;
+  max-width: none;
 }
 
 .eyebrow {
@@ -99,8 +99,16 @@ h1 {
 .bio {
   color: var(--muted);
   font-size: 15px;
-  max-width: 70ch;
   overflow-wrap: anywhere;
+  text-wrap: pretty;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.bio + .bio {
+  margin-top: 10px;
 }
 
 .contact-links {
@@ -138,7 +146,7 @@ h1 {
 .profile-photo {
   position: relative;
   margin: 0;
-  width: 190px;
+  width: 210px;
   max-width: 100%;
 }
 
@@ -299,7 +307,7 @@ span.highlight {
 
   .profile-photo {
     order: -1;
-    width: 190px;
+    width: 200px;
     max-width: 220px;
   }
 
